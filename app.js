@@ -429,6 +429,68 @@
 //case 3
 //Yoshni yillarda aniqlovchi 20-69 gacha butun son berilgan. Kiritilgan sonni so`zlarda ifodalovchi programma tuzilsin. ("yigirma yosh", "qirq uch yosh❞ va h.k.)
 
+//let son = +prompt("Son kiriting");
+//let son1 = son % 10;
+//let son2 = Math.floor(son / 10);
+//let a, b;
+
+//switch (son2) {
+//case 1:
+//a = "O'n";
+// break;
+//case 2:
+// a = "Yigirma";
+// break;
+//case 3:
+//a = "O'ttiz";
+//break;
+//case 4:
+//a = "Qirq";
+//break;
+//case 5:
+//a = "Ellik";
+//break;
+//case 6:
+//a = "Oltmish";
+//break;
+//default:
+//a = "Unday son yo'q";
+//}
+//switch (son1) {
+//case 1:
+//b = "bir";
+//break;
+//case 2:
+//b = "ikki";
+//break;
+//case 3:
+//b = "uch";
+//break;
+//case 4:
+//  a = "to'rt";
+//break;
+//case 5:
+//b = "besh";
+//break;
+//case 6:
+//b = "Olti";
+//case 7:
+//b = "yetti";
+//break;
+//case 8:
+//b = "sakkiz";
+//break;
+//case 9:
+//b = "to'qqiz";
+//break;
+//case 0:
+//b = "";
+//break;
+//default:
+//b = "Unday son yo'q";
+//}
+//console.log(a, b);
+
 //case 4
 //K butun soni berilgan. Baho natijalarini chiqaruvchi programma tuzing.(1-yomon, 2-qoniqarsiz, 3-qoniqarli, 4-yahshi, 5-a'lo). Agar k soni 1-5 gacha oraliqqa tegishli bo`lmasa "xato" deb chiqarilsin.
 
@@ -512,3 +574,217 @@
 
 //case 7
 //Uzinlik birliklari quyidagi tartibda berilgan. 1-desimetr, 2-kilometr, 3-metr, 4-millimeter, 5- santimetr. Uzunlik birligini bildiruvchi son berilgan (1 - 5 oraliqda) va shu birlikdagi kesma uzunligi berilgan (haqiqiy son). Kesmaning uzunligini metrlarda ifodalofchi programma tuzilsin.
+
+//let number = +prompt("Son kiriting");
+//let L = +prompt("Son kiriting");
+//switch (number) {
+//case 1:
+// console.log(` ${L}desimetr = ${L / 10} metr`);
+// break;
+//case 2:
+// console.log(` ${L}kilometr = ${L * 1000} metr`);
+// break;
+//case 3:
+// console.log("metr");
+// break;
+//case 4:
+// console.log(` ${L}milimetr = ${L / 1000} metr`);
+// break;
+//case 5:
+//  console.log(` ${L}santimetr = ${L / 100} metr`);
+// break;
+//default:
+//  console.log("unday o'lchov yo'q");
+//}
+
+//case 8
+//Og'irlik birliklari quyidagi tartibda berilgan. 1-kilogramm, 2-milligramm, 3-gramm, 4-tonna, 5- sentner. Og'irlik birligini bildiruvchi soni berilgan va shu birlikdagi og`irlik qiymati berilgan. Og`irlikni kilogramda ifodalofchi programma tuzilsin.
+
+//let number = +prompt("Son kiriting");
+//let W = +prompt("Son kiriting");
+//switch (number) {
+//case 1:
+// console.log("kilogramm");
+// break;
+//case 2:
+// console.log(` ${W}milgramm = ${W / 1000000} kilogramm`);
+// break;
+//case 3:
+// console.log(` ${W}gram = ${W / 1000} kilogramm`);
+// break;
+//case 4:
+// console.log(` ${W}tonna = ${W * 1000} kilogramm`);
+// break;
+//case 5:
+//  console.log(` ${W}sentner = ${W * 100} kilogramm`);
+// break;
+//default:
+//  console.log("unday o'lchov yo'q");
+//}
+
+//case 9
+//Sanani bildiruvchi ikkita butun son berilgan D (kun) va M (oy). (Kabisa bo`lmagan yil sanasi kiritiladi). Berilgan sanani ifodalovchi programma tuzilsin. Kabisa yilida 366 kun, kabisa bo'lmagan yilda 365 kun bor bo'ladi.
+
+//case 10
+//Ikkita butun son berilgan D (kun) va M (oy). (Kabisa bo`lmagan yil sanasi kiritiladi). Berilgan sanadan keyingi sanani ifodalovchi programma tuzilsin.
+
+//case 11
+//Robot faqat to`rtta tomonga ko`cha oladi ("s"-shimol, "j"-janub, "q"-sharq, "g"-g'arb) va uchta raqamli kamanda: 0-harakni davom ettir, 1-chapga buril, 2-o`ngga buril. Y - robot yo`nalishi va K - kamanda berilgan. Berilgan kamanda bajarilgandan keying robot holatini aniqlovchi programma tuzilsin.
+
+//case 12
+//O'yin kartasi turlari berilgan 1-g`isht, 2-olma, 3-chillak, 4-qarg`a. 10 lik kartadan katta kartalar quyidagi qiymatlarni o`zlashtirgan: 11-valet, 12-dama, 13-qirol, 14-tuz. Ikkita butun son berilgan N-karta qiymati (6≤ N ≤14), M-karta turi(1≤M ≤4) kiritilganda karta nomlarini (masalan: "olti qarg`a”) chiqarib beruvchi programma tuzilsin
+
+//case 13
+//O`quv masalalarini aniqlovchi 10-40 gacha butun son berilgan. Son kiritilganda unga mos so`zlarda ifodalovchi programma tuzilsin. ("yigirmata masala", "o`n uchta masala" va h.k.)
+
+//let son = +prompt("Son kiriting");
+//let son1 = son % 10;
+//let son2 = Math.floor(son / 10);
+//let a, b;
+
+//switch (son2) {
+//case 1:
+//a = "O'n";
+// break;
+//case 2:
+// a = "Yigirma";
+// break;
+//case 3:
+//a = "O'ttiz";
+//break;
+//case 4:
+//a = "Qirq";
+//break;
+//default:
+//a = "Unday son yo'q";
+//}
+//switch (son1) {
+//case 1:
+//b = "bir";
+//break;
+//case 2:
+//b = "ikki";
+//break;
+//case 3:
+//b = "uch";
+//break;
+//case 4:
+//  a = "to'rt";
+//break;
+//case 5:
+//b = "besh";
+//break;
+//case 6:
+//b = "Olti";
+//case 7:
+//b = "yetti";
+//break;
+//case 8:
+//b = "sakkiz";
+//break;
+//case 9:
+//b = "to'qqiz";
+//break;
+//case 0:
+//b = "";
+//break;
+//default:
+//b = "Unday son yo'q";
+//}
+//console.log(a, b, "masala");
+
+//case 14
+//100-999 gacha oraliqdagi sonlarni so'zlarda ifodalovchi programma tuzilsin. (masalan: 123- "bir yuz yigirma uch").
+
+//let son = +prompt("Son kiriting");
+//let son1 = son % 10;
+//let son2 = Math.floor(son / 10) % 10;
+//let son3 = Math.floor(son / 100) % 100;
+//let a, b, c;
+
+//switch (son3) {
+//case 1:
+//c = "bir yuz";
+//break;
+//case 2:
+// c = "ikki yuz";
+// break;
+//case 3:
+//  c = "uch yuz";
+//  break;
+//case 4:
+//  c = "to'rt yuz";
+//  break;
+//case 5:
+//  c = "besh yuz";
+//  break;
+//case 6:
+//  c = "Olti yuz";
+//case 7:
+//  c = "yetti yuz";
+//  break;
+//case 8:
+//  c = "sakkiz yuz";
+//  break;
+//case 9:
+//  c = "to'qqiz yuz";
+//  break;
+//default:
+//  c = "Unday son yo'q";
+//}
+//switch (son2) {
+//case 1:
+//  a = "O'n";
+//  break;
+//case 2:
+//  a = "Yigirma";
+//  break;
+//case 3:
+//  a = "O'ttiz";
+//break;
+//case 4:
+//  a = "Qirq";
+//break;
+//case 5:
+//  a = "Ellik";
+//  break;
+//case 6:
+//  a = "Oltmish";
+//  break;
+//default:
+//  a = "Unday son yo'q";
+//}
+//switch (son1) {
+//case 1:
+// b = "bir";
+// break;
+//case 2:
+// b = "ikki";
+// break;
+//case 3:
+// b = "uch";
+// break;
+//case 4:
+//  b = "to'rt";
+// break;
+// case 5:
+//  b = "besh";
+// break;
+//case 6:
+// b = "Olti";
+//case 7:
+//  b = "yetti";
+//  break;
+//case 8:
+//  b = "sakkiz";
+//  break;
+//case 9:
+//  b = "to'qqiz";
+//  break;
+//case 0:
+//  b = "";
+//  break;
+//default:
+//  b = "Unday son yo'q";
+//}
+//console.log(c, a, b);
